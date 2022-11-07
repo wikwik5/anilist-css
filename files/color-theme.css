@@ -19,13 +19,13 @@
   --genre-orange: 210, 14, 65;
   --color-nav-background: var(--color-foreground);
   --color-nav-text: var(--color-text);
-  --color-background: 13, 0, 0;
-  --color-foreground: 38, 1, 11, 0.9;
-  --color-foreground-grey: 38, 1, 11, 0.9;
+  --color-background: 13, 0, 0;                             /*przyciemnienie tła*/
+  --color-foreground: 111, 1, 109, 0.9;       /*main kolor - ramka opisu, pasek środkowy, activity, total*/
+  --color-foreground-grey: 38, 1, 11, 0.9;     /*dolna część total*/
   --color-foreground-grey-dark: var(--color-background);
-  --color-text: 133, 133, 133;
-  --color-text-light: 143, 143, 143;
-  --color-text-lighter: 133, 133, 133;
+  --color-text: 244, 244, 244;                             /*tekst opis, "watched episode * of"  */
+  --color-text-light: 244, 244, 244;                       /*tekst kategorii i total anime/manga*/
+  --color-text-lighter: 244, 244, 244;                      /*tekst ile godzin temu, lists all watching itp*/
   --color-background-300: var(--color-background);
   --color-background-200: var(--color-background); 
   --color-background-100: var(--color-foreground); 
