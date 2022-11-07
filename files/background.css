@@ -1,11 +1,11 @@
 /* background */
 :root{
     --background: url("https://files.catbox.moe/2dukwj.jpg");
-                        /* Put your background here ^^ */
+                        /* główne tło */
 }
 
 body {
-    background: #000000 var(--background) center/100% fixed !important;
+    background: #000000 var(--background) center/100% fixed !important; /*kolor scroll bar*/
     background-repeat: no-repeat !important;
     background-size: 100% auto !important;
 }
